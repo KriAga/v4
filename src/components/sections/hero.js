@@ -27,10 +27,10 @@ const StyledHeroSection = styled.section`
     }
   }
 
-  h3 {
+  h4 {
     margin-top: 10px;
     color: var(--slate);
-    line-height: 0.9;
+    line-height: 0.8;
   }
 
   p {
@@ -53,14 +53,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Krishna Agarwal.</h2>;
+  // const three = <h4 className="big-heading">To live a happier life I believe in automating things that need automation.</h4>;
   const four = (
     <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products.
+      I'm a Hyderabad-based Software Engineer and I work on creating effective Data Pipelines and
+      innovating automation ideas. Currently, I'm an engineer at{' '}
+      <a href="https://www.optum.com/">Optum Global Solutions</a>
     </p>
   );
   const five = (
@@ -69,7 +68,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, four, five];
 
   return (
     <StyledHeroSection>
