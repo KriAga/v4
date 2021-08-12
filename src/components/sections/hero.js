@@ -54,11 +54,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Krishna Agarwal.</h2>;
-  // const three = <h4 className="big-heading">To live a happier life I believe in automating things that need automation.</h4>;
+  const three = <h4 className="small-heading">Might find some things UNDER DEVELOPMENT.</h4>;
   const four = (
     <p>
       I'm a Hyderabad-based Software Engineer and I work on creating effective Data Pipelines and
-      innovating automation ideas. Currently, I'm an engineer at{' '}
+      innovating automation ideas. I also design, develop and deploy backend services (APIs) with
+      focus on high availability, low latency and scalability. Currently, I'm an engineer at{' '}
       <a href="https://www.optum.com/">Optum Global Solutions</a>
     </p>
   );
@@ -68,7 +69,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, four, five];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>
